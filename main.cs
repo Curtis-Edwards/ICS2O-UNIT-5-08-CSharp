@@ -23,18 +23,18 @@ class Program
 
         while (currentanswer > 0)
         {
-             currentanswer =  currentanswer - integer2;
+            currentanswer = currentanswer - integer2;
             if (currentanswer >= 0)
             {
-            answer++;
+                answer++;
             }
         }
-        while (currentanswer < 0) 
+        while (currentanswer < 0)
         {
-        currentanswer++;
-        remainder++;
+            currentanswer++;
+            remainder++;
         }
-        
+
         Console.WriteLine(" The answer is: " + answer + " The remainder is: " + remainder);
 
         Console.WriteLine("\nDone.");
