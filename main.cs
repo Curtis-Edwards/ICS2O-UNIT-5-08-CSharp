@@ -19,16 +19,18 @@ class Program
         integer2 = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("");
 
-        var  currentanswer = integer1;
+        var currentanswer = integer1;
 
-        while ( currentanswer > 0 )
+        while (currentanswer > 0)
         {
              currentanswer =  currentanswer - integer2;
-            if ( currentanswer >= 0) {
+            if (currentanswer >= 0)
+            {
             answer++;
             }
-        } 
-        while ( currentanswer < 0 ) {
+        }
+        while (currentanswer < 0) 
+        {
         currentanswer++;
         remainder++;
         }
